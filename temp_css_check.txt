@@ -1,0 +1,96 @@
+  flex-direction: column;
+@media (min-width: 640px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+@media (min-width: 992px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  flex-direction: column;
+  flex-direction: column;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+  flex-direction: column;
+@media (max-width: 768px) {
+@media (max-width: 480px) {
+    flex-direction: column;
+  flex-direction: column;
+.trending-grid {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  flex-direction: column;
+@media (max-width: 768px) {
+@media (max-width: 576px) {
+  grid-template-columns: repeat(5, 1fr);
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+@media (min-width: 1200px) {
+  .trending-grid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+@media (max-width: 1199px) and (min-width: 992px) {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+@media (max-width: 991px) and (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  .trending-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+/* @media (max-width: 767px) and (min-width: 576px) {
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 575px) {
+  .trending-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+@media (prefers-reduced-motion: reduce) {
+@media print {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+@media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+@media (max-width: 480px) {
+@media (max-width: 991px) and (min-width: 768px) {
+    grid-template-columns: repeat(6, 1fr);
+@media (max-width: 767px) and (min-width: 576px) {
+    grid-template-columns: repeat(3, 1fr);
+@media (max-width: 575px) {
+    grid-template-columns: repeat(3, 1fr);
+@media (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 767px) and (min-width: 576px) {
+@media (max-width: 575px) {
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+@media (max-width: 991px) and (min-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+@media (max-width: 767px) and (min-width: 576px) {
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+@media (max-width: 575px) {
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+@media (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 767px) and (min-width: 576px) {
+@media (max-width: 575px) {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+@media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+@media (max-width: 480px) {
+    grid-template-columns: 1fr;
+@media (max-width: 768px) {
+@media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 768px) {
+    grid-template-columns: 1fr;
